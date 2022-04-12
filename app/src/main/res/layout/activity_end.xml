@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text = "ee"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/Explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text = "dd"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/GoStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/Explanation"
+        android:text="처음으로"
+        android:textSize="25dp"
+        android:background="@drawable/mbti_button"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

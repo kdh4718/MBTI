@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/Question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 처음 만나는 사람들과도 쉽게 이야기하고 친해지는 편이다."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"
+                android:textColor="#00FF00"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:textColor="#FF0000"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/Rgroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/RadioBtn1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#00FF00"/>
+            <RadioButton
+                android:id="@+id/RadioBtn1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#45FF45"/>
+            <RadioButton
+                android:id="@+id/RadioBtn1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#90FF90"/>
+            <RadioButton
+                android:id="@+id/RadioBtn1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFEB3B"/>
+            <RadioButton
+                android:id="@+id/RadioBtn1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/holo_orange_dark"/>
+            <RadioButton
+                android:id="@+id/RadioBtn1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FF0000"/>
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/Question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. 창의적이기 보다는 현실적이라고 생각한다."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"
+                android:textColor="#00FF00"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:textColor="#FF0000"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/Rgroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/RadioBtn2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/Question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. 매를 맞으면 쉽게 잘못했다고 하는 편이다."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"
+                android:textColor="#00FF00"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:textColor="#FF0000"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/Rgroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/RadioBtn3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn3_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/Question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. 과제가 주어지면 최대한 미루는 편이다."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그렇다"
+                android:textColor="#00FF00"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아니다"
+                android:layout_alignParentRight="true"
+                android:textColor="#FF0000"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/Rgroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/RadioBtn4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/RadioBtn4_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/NextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:background="@drawable/mbti_button"
+                android:textSize="20dp"
+                android:visibility="visible"
+                android:text="다음 문항"
+                android:layout_margin="12dp"/>
+
+            <Button
+                android:id="@+id/FinBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:background="@drawable/mbti_button"
+                android:visibility="invisible"
+                android:text="완료하기"
+                android:layout_margin="12dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

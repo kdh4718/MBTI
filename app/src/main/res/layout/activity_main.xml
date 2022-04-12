@@ -131,7 +131,8 @@
                 android:id="@+id/RadioBtn2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:buttonTint="#00FF00"/>
             <RadioButton
                 android:id="@+id/RadioBtn2_2"
                 android:layout_width="wrap_content"
